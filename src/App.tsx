@@ -1,6 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { Something } from "@app/components/something";
+import { SomethingElse } from "@app/components/something-else";
+
+console.log(Something, SomethingElse);
 
 function App() {
   return (
